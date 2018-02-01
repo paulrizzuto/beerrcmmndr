@@ -53,4 +53,4 @@ def all_beers(filter_col, filter_cond):
     )
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
