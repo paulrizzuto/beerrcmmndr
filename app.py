@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 
 #flask setup
 from flask import Flask, jsonify, render_template, request, flash, redirect
-app = Flask(__name__)
+app = Flask(__name__, template_folder='Templates')
 
 # connect user_scrape function
 from user_scrape import random_forest
