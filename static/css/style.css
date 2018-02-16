@@ -1333,7 +1333,7 @@ label {
       font-size: 20px; } }
 
 .intro h1, .intro-title {
-  color: black;
+  color: white;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 44px;
   line-height: 42px;
@@ -1350,6 +1350,10 @@ label {
   html[dir="rtl"] body .intro h1, .intro html[dir="rtl"] body h1, html[dir="rtl"] body .intro-title {
     font-family: 'Cairo', sans-serif;
     line-height: 1.4; }
+
+.fittext3 {
+  color: white;  
+}
 
 .search-row .search-col .form-control, .search-row button.btn-search {
   border-radius: 0;
